@@ -1,0 +1,87 @@
+/*MOBILE DEVIVE RESPONSIVE*/
+@media screen and (max-width:600px) {
+    /*header area responsive*/
+    .logo{
+        min-width:150px;
+    }
+    .manu-area{
+        display: none;
+    
+    }
+    .nav-bar{
+        display: block;
+    
+    }
+    .logo img{
+        width: 15%;
+    }
+    .logo h2{
+        font-size: 1.6rem;
+    }
+    /*hero area responsive start*/
+    .hero-content{
+        top:-20rem;
+      
+    }
+    .hero-content h1{
+        margin-top: 4rem;
+        font-size: 3rem;
+        font-weight: 200;
+    
+    }
+    .hero-content p{
+        font-weight: 200;
+        font-size: 1.2rem;
+        line-height: 2rem;
+        width:90%;
+   
+    }
+    .input-fild{
+        flex-direction:column;
+        justify-content: start;
+    
+    }
+    .input-fild select, button{
+        width:100%;
+        margin:2rem 0;
+    }
+}
+
+/*TABLATE DEVICE RESPONSIVE*/
+@media screen and (min-width:601px) and (max-width:900px){
+    /*header area responsive start*/
+    .logo{
+        min-width:230px;
+    }
+    .nav-area li a{
+        font-size: 1.4rem;
+        font-weight: 200;
+        margin-left: 10px;
+    }
+    .logo img{
+        width: 15%;
+    }
+    .logo h2{
+        font-size: 1.6rem;
+        font-weight: 400;
+    }
+    /*hero area responsive start*/
+    .hero-content{
+        top:-13rem;
+      
+    }
+    .hero-content h1{
+        font-size: 4.4rem;
+        font-weight: 400;
+      
+    
+    }
+    .input-fild{
+       flex-direction: column;
+    
+    }
+    .input-fild select, button{
+        width:100%;
+        margin:2rem 0;
+    }
+}

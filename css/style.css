@@ -14,7 +14,7 @@ body{
 }
 
 /*basic style start*/
-h1{
+h1, h2, h3 ,h4, h5, h6{
     margin:5px;
 }
 a{
@@ -24,6 +24,7 @@ a{
     width:90%;
     margin: auto;
 }
+
 :root{
     --button-background-color:#FF5400;
     --normal-text-color:#131318;
@@ -33,5 +34,122 @@ a{
 }
 /*header area style start*/
 #header{
-    border:1px solid red;
+   padding:1.6rem 0;
+}
+.nav-area{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+.logo{
+    min-width:350px;
+    display: flex;
+    align-items: center;
+}
+.logo img{
+    width: 20%;
+}
+.logo h2{
+    font-size: 2.6rem;
+    color: var(--normal-text-color);
+    font-weight: 800;
+}
+.logo h2 span{
+    color:var(--button-background-color);
+}
+.manu-area{
+    list-style: none;
+    display: flex;
+
+}
+.nav-area li a{
+    color:var(--normal-text-color);
+    font-size: 1.8rem;
+    font-weight: 400;
+    margin-left: 20px;
+}
+.nav-area li a:hover{
+    color:var(--button-background-color)
+}
+.nav-bar{
+    display: none;
+
+}
+.nav-bar span i{
+    font-size: 1.8rem;
+    color:var(--button-background-color);
+}
+
+/*hero area style start*/
+#hero{
+    padding:2rem 0;
+}
+.hero-area{
+    width:100%;
+    height:80vh;
+    background-image: url(/Images/hero.png);
+    background-size: cover;
+    background-position: center;
+    position: relative;
+    border-radius: 1rem;
+
+}
+.hero-content{
+    width:80%;
+    height:70%;
+    position: absolute;
+    top:0;
+    right:0;
+    bottom:0;
+    left:0;
+    margin:auto;
+}
+.hero-content h1{
+    color: var(--white-text-color);
+    font-size: 6.4rem;
+    font-weight: 800;
+    text-align: center;
+    text-shadow: 2px 2px 3px var(--button-background-color);
+    margin-top: 7rem;
+
+}
+.hero-content p{
+    width:70%;
+    margin:auto;
+    color: var(--white-text-color);
+    text-align: center;
+    font-size: var(--small-text);
+    font-weight: 400;
+    padding:.5rem 0;
+    line-height: 2.5rem;
+}
+.input-area{
+    width:80%;
+    margin:auto;
+    border:2px solid var(--white-text-color);
+    padding:2rem 1rem;
+    background-color: rgba(255, 255, 255,0.5);
+    border-radius: 0.5rem;
+}
+.input-fild{
+    display: flex;
+    justify-content: space-between;
+
+}
+.input-fild select, button{
+    width:23%;
+    color:var(--normal-text-color);
+    font-size: 1.6rem;
+   padding:1rem 2rem;
+    font-weight: 400;
+    line-height: normal;
+    border-radius: 1rem;
+}
+.input-fild button{
+    background-color: var(--button-background-color);
+    color:var(--white-text-color)
+}
+.input-fild button span{
+    padding-right: 3.5rem;
+
 }
