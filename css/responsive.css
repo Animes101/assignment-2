@@ -41,9 +41,40 @@
         justify-content: start;
     
     }
-    .input-fild select, button{
+    .input-fild select{
         width:100%;
         margin:2rem 0;
+    }
+    .input-fild button{
+        width:100%;
+        cursor: pointer;
+
+    }
+    /*popular area responsive*/
+    .popular-are{
+        flex-direction: column;
+        
+    }
+    .popular-cotent{
+        width:100%;
+        margin-bottom: 2rem;
+    
+    }
+    .popular-cotent h1{
+        font-size: 3rem;
+        font-weight: 400;
+    
+    }
+   
+    .popular-cotent>p{
+        font-size: 1.4rem;
+    }
+    .popular-img{
+        width:100%;
+    }
+    .popular-img img{
+        width:100%;
+       
     }
 }
 
@@ -80,8 +111,39 @@
        flex-direction: column;
     
     }
-    .input-fild select, button{
+    .input-fild select{
         width:100%;
         margin:2rem 0;
     }
+    .input-fild button{
+        width:100%;
+
+    }
+        /*popular area responsive*/
+        .popular-are{
+            flex-direction: column;
+            
+        }
+        .popular-cotent{
+            width:100%;
+            margin-bottom: 2rem;
+        
+        }
+        .popular-cotent h1{
+            font-size: var(--heading-text);
+            font-weight: 400;
+        
+        }
+       
+        .popular-cotent>p{
+            font-size: 1.6rem;
+        }
+        .popular-img{
+            width:100%;
+        }
+       
+        .popular-img img{
+            width:100%;
+           
+        }
 }
