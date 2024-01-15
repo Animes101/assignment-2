@@ -76,6 +76,85 @@
         width:100%;
        
     }
+
+    /*choose area responsive style start*/
+    .choose-area h1{
+        font-size: 3rem;
+        font-weight: 500;
+    }
+    .choose-area>p{
+        font-size: 1.2rem;
+        font-weight: 200;
+        width:70%;
+        line-height: 2rem;
+    }
+    .choose-cards{
+        flex-direction: column;
+
+    }
+    .card{
+        width:100%;
+    }
+    /*discount area responsive style start*/
+    .discounts-area h1{
+        font-size: 3rem;
+        font-weight: 400;
+    
+    }
+    .discounts-area p{
+        font-size: 1.2rem;
+        font-weight: 200;
+    }
+    .discount-content{
+        width:80%;
+        height:70%;
+        left:0;
+        right: 0;
+    
+    }
+    
+    .card-2{
+        right:0;
+    
+    }
+
+    /*place area responsive*/
+    .place-area{
+        flex-direction: column;
+    }
+    .place-content{
+        width:100%;
+    }
+    .place-content h1{
+        color: var(--normal-text-color);
+        font-size: 2rem;
+        font-weight: 400;
+        text-align: center;
+    }
+    .place-content p{
+        font-size: 1.2em;;
+        font-weight: 200;
+        text-align: center;
+     
+    }
+    .place-content ul li{
+        font-size: 1.4rem;
+        font-weight: 300;
+    
+    }
+    .place-content button{
+        padding:1rem 2rem;
+        text-align: center;
+        font-size: 1.2rem;
+        font-weight: 400;
+        
+    }
+    .place-video{
+        width:100%;
+    }
+    .place-video img{
+        width:100%;
+    }
 }
 
 /*TABLATE DEVICE RESPONSIVE*/
