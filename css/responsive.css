@@ -1,6 +1,9 @@
 /*MOBILE DEVIVE RESPONSIVE*/
 @media screen and (max-width:600px) {
     /*header area responsive*/
+    #header{
+        padding:1rem 0;
+     }
     .logo{
         min-width:150px;
     }
@@ -19,12 +22,11 @@
         font-size: 1.6rem;
     }
     /*hero area responsive start*/
-    .hero-content{
-        top:-20rem;
-      
+    #hero{
+        padding:1rem 0;
     }
     .hero-content h1{
-        margin-top: 4rem;
+        margin-top: 2rem;
         font-size: 3rem;
         font-weight: 200;
     
@@ -43,7 +45,7 @@
     }
     .input-fild select{
         width:100%;
-        margin:2rem 0;
+        margin:1rem 0;
     }
     .input-fild button{
         width:100%;
@@ -51,6 +53,10 @@
 
     }
     /*popular area responsive*/
+    #popular {
+        padding: 0rem 0;
+        margin: 2rem 0;
+      }
     .popular-are{
         flex-direction: column;
         
@@ -65,6 +71,9 @@
         font-weight: 400;
     
     }
+    .popular-cotent ul{
+        padding:0rem 3rem;
+    }
    
     .popular-cotent>p{
         font-size: 1.4rem;
@@ -76,6 +85,11 @@
         width:100%;
        
     }
+    .popular-cotent button {
+        padding: 1rem 2rem;
+        text-align: center;
+        font-size: 14px;
+      }
     /*destination ares responsive start*/
     .destination-area h1{
        font-size: var(--heading-text);
@@ -92,6 +106,7 @@
 
     .top-img{
         width:100%;
+        margin-bottom: 2rem;
     }
     .center-imgs{
     
@@ -101,7 +116,7 @@
     
     }
     .center-img img{
-        height:150px;
+        height:160px;
     }
     .bottom-imgs{
         grid-template-columns: 1fr;
@@ -109,7 +124,7 @@
     }
     .bottom-img img{
         width:100%;
-        height:150px;
+        height:160px;
     }
 
     /*choose area responsive style start*/
@@ -120,7 +135,7 @@
     .choose-area>p{
         font-size: 1.2rem;
         font-weight: 200;
-        width:70%;
+        width:80%;
         line-height: 2rem;
     }
     .choose-cards{
@@ -226,6 +241,10 @@
     .logo-footer img{
         width:20%;
     }
+    .footer-logo ul li i {
+        margin: 1rem;
+        
+      }
 
 }
 
@@ -297,6 +316,32 @@
             width:100%;
            
         }
+        /*destination ares responsive*/
+        .destination-area p {
+            width: 80%;
+            padding:1rem;
+
+          }
+        .top-imgs{
+            flex-direction: column;
+        
+        }
+        .top-img{
+            width:100%;
+        }
+        .center-imgs{
+            
+            grid-template-columns: 1fr;
+        
+        
+        }
+        .bottom-imgs{
+           
+            grid-template-columns: 1fr;
+            grid-gap: 1rem;
+        
+        }
+
         /*discount area responsive*/
         .discount-content{
             width:60%;
@@ -310,5 +355,10 @@
             left:0;
         
         }
+        /*choose area responsive*/
+        .choose-area > p {
+            width: 80%;
+            padding:1rem;
+          }
 
 }

@@ -68,8 +68,11 @@ a{
     font-weight: 400;
     margin-left: 20px;
 }
+.nav-area li a.active{
+    color:var(--button-background-color);
+}
 .nav-area li a:hover{
-    color:var(--button-background-color)
+    color:var(--button-background-color);
 }
 .nav-bar{
     display: none;
@@ -77,7 +80,8 @@ a{
 }
 .nav-bar span i{
     font-size: 1.8rem;
-    color:var(--button-background-color);
+    color:var(--normal-text-color);
+    cursor: pointer;
 }
 
 /*hero area style start*/
@@ -576,7 +580,7 @@ a{
     border-radius: 8px;
     outline: none;
     background: rgba(19, 19, 24, 0.05);
-    padding:0.5rem;
+    padding:1rem;
 
 }
 .news-singin-area button{
@@ -680,11 +684,14 @@ a{
     align-items: center;
 }
 .footer-logo ul li i{
-    font-size: var(--small-text);
+    font-size: 3rem;
     margin:2rem;
     cursor: pointer;
     padding:0.5rem;
 
+}
+.footer-logo ul li i:hover{
+    color: var(--button-background-color);
 }
 .footer-logo hr{
     font-size:1.6rem;
