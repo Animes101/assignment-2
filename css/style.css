@@ -563,6 +563,7 @@ a{
     font-weight: 700;
     line-height: 36px;
     letter-spacing: 2rem;
+    font-style: italic;
 }
 .place-video video{
     width:100%;

@@ -350,6 +350,53 @@
             grid-gap: 1rem;
         
         }
+        .discount-content ul{
+            flex-direction: column;
+           }
+           .discount-content ul li{
+               font-weight: 200;
+               padding-right: 1.5rem;
+           }.discount-content ul li span{
+               padding:1rem;
+           }
+         /*place area responsive*/
+    .place-area{
+        flex-direction: column;
+    }
+    .place-content{
+        width:100%;
+    }
+    .place-content h1{
+        color: var(--normal-text-color);
+        font-size: 3rem;
+        font-weight: 400;
+        text-align: center;
+    }
+    .place-content p{
+        font-size: 1.2em;;
+        font-weight: 200;
+        text-align: center;
+     
+    }
+    .place-content ul li{
+        font-size: 1.4rem;
+        font-weight: 300;
+    
+    }
+    .place-content button{
+        padding:1rem 2rem;
+        text-align: center;
+        font-size: 1.2rem;
+        font-weight: 400;
+        
+    }
+    .place-video{
+        width:100%;
+    }
+    .place-video video{
+        width:100%;
+    }
+    
 
         /*discount area responsive*/
         .discount-content{
@@ -369,5 +416,7 @@
             width: 80%;
             padding:1rem;
           }
+
+
 
 }
