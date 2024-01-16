@@ -195,7 +195,7 @@
 }
 
 /*TABLATE DEVICE RESPONSIVE*/
-@media screen and (min-width:601px) and (max-width:900px){
+@media screen and (min-width:601px) and (max-width:992px){
     /*header area responsive start*/
     .logo{
         min-width:230px;

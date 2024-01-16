@@ -550,8 +550,22 @@ a{
     background-color: var(--button-background-color);
     border-radius: 1rem;
     position: absolute;
-    bottom:0;
-    right:0;
+    bottom: 47px;
+    right: 16px;
+    transform: rotate(-30deg);
+}
+.news-content h3{
+    color:var(--white-text-color);
+    text-align: center;
+    font-size: 2rem;
+    font-weight: 400;
+    line-height: normal;
+}
+.news-content h1{
+    color: var(--white-text-color);
+    font-size: 2rem;
+    font-weight: 800;
+    text-align: center;
 }
 /*location area style start*/
 #location{
