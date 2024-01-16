@@ -157,10 +157,19 @@
     }
     .discount-content{
         width:80%;
-        height:70%;
+        height:75%;
         left:0;
         right: 0;
     
+    }
+    .discount-content ul{
+     flex-direction: column;
+    }
+    .discount-content ul li{
+        font-weight: 200;
+        padding-right: 1.5rem;
+    }.discount-content ul li span{
+        padding:1rem;
     }
     
     .card-2{
@@ -202,7 +211,7 @@
     .place-video{
         width:100%;
     }
-    .place-video img{
+    .place-video video{
         width:100%;
     }
     /*news area responsive start*/

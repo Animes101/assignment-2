@@ -126,6 +126,7 @@ a{
     font-weight: 400;
     padding:.5rem 0;
     line-height: 2.5rem;
+    text-shadow: 2px 2px 2px var(--normal-text-color);
 }
 .input-area{
     width:80%;
@@ -463,6 +464,9 @@ a{
     font-size: var(--small-text);
     color: var(--normal-text-color);
     font-weight: 400;
+    padding-right: 2rem;
+}.discount-content ul li span{
+    padding:2rem;
 }
 .discount-content h3{
     color: var(--normal-text-color);
@@ -534,13 +538,37 @@ a{
     background-color: var(--button-background-color);
     border-radius: 0.5rem;
 }
+.place-content button:hover{
+    background-color: var(--normal-text-color);
+    cursor:pointer;
+}
 .place-video{
     width:50%;
+    position: relative;
 }
-.place-video img{
-    width:90%;
+.video-text{
+    width:200px;
+    height:60px;
+    position: absolute;
+    top:0;
+    left:0;
+    right:0;
+    bottom:0;
+    margin: auto;
+}
+.video-text h1{
+    color: var(--white-text-color);
+    text-align: center;
+    font-size: 24px;
+    font-weight: 700;
+    line-height: 36px;
+    letter-spacing: 2rem;
+}
+.place-video video{
+    width:100%;
     display: block;
     margin: auto;
+    border-radius: 1rem;
 }
 /*news area style start*/
 #news{
