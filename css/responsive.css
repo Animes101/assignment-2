@@ -155,6 +155,43 @@
     .place-video img{
         width:100%;
     }
+    /*news area responsive start*/
+    .news-area{
+        flex-direction: column;
+        justify-content: center;
+        
+    }
+    .news-singin-area{
+        width:100%;
+        margin-bottom:1rem;
+    }
+    .news-img{
+        width:100%;
+    }
+
+
+    /*location area respnsive start*/
+    .location-area h1{ 
+        font-size: 3rem;
+        font-weight: 400;
+    
+    }
+    /*footer area responsive start*/
+    #footer{
+        padding:2rem 0;
+       
+    }
+    .footer-logo p{
+        width:90%;
+        font-weight: 200;
+    }
+    .logo-footer{
+        min-width: 277px;;
+    }
+    .logo-footer img{
+        width:20%;
+    }
+
 }
 
 /*TABLATE DEVICE RESPONSIVE*/
@@ -225,4 +262,18 @@
             width:100%;
            
         }
+        /*discount area responsive*/
+        .discount-content{
+            width:60%;
+            height:75%;
+            left:0;
+
+    
+        }
+        .card-2{
+            right:0;
+            left:0;
+        
+        }
+
 }
