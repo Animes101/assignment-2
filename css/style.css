@@ -689,6 +689,7 @@ a{
 #footer{
     padding:3rem 0;
     background-color:rgba(19, 19, 24, 0.05);
+    box-sizing: border-box;
 }
 .footer-logo{
     display: flex;
